@@ -25,11 +25,19 @@ dependencies {
 }
 apply plugin: 'java'
 
-task runApp(type: JavaExec) {
+task runCollectionsDemo(type: JavaExec) {
   classpath = sourceSets.main.runtimeClasspath
 
   main = 'CollectionsDemo'
 
   // arguments to pass to the application
-  args 'appArg1'
+//  args 'appArg1'
 }
+
+task runArrayListDemo(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    main = 'ArrayListDemo'
+}
+
+
+
