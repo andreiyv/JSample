@@ -34,7 +34,7 @@ class Customer
     public boolean equals(Object obj)
     {
         Customer customer = (Customer) obj;
-
+        
         return (id == customer.id);
     }
 
