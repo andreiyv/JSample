@@ -8,7 +8,7 @@ public class TreeSetDemo {
         ts.add(34);
         ts.add(45);
 
-        Itertor<Integer> iterator = tree.iterator();
+        Iterator<Integer> iterator = ts.iterator();
 
         while (iterator.hasNext()) {
             System.out.println(iterator.next() + " ");
