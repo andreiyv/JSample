@@ -47,3 +47,8 @@ task runHashSetDemo(type: JavaExec) {
     classpath = sourceSets.main.runtimeClasspath
     main = 'HashSetDemo'
 }
+
+task runLinkedHashSetDemo(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    main = 'LinkedHashSetDemo'
+}
