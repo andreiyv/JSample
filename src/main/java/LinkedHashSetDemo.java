@@ -71,5 +71,4 @@ public class LinkedHashSetDemo {
                     System.out.println(customer);
                 }
             }
-    }
 }
