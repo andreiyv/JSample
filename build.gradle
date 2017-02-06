@@ -38,6 +38,7 @@ task runArrayListDemo(type: JavaExec) {
     classpath = sourceSets.main.runtimeClasspath
     main = 'ArrayListDemo'
 }
-
-
-
+task runLinkedListDemo(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    main = 'LinkedListDemo'
+}
