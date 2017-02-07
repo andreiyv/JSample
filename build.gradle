@@ -58,8 +58,12 @@ task runTreeSetDemo(type: JavaExec) {
     main = 'TreeSetDemo'
 }
 
-task runiHashMapDemo(type: JavaExec) {
+task runHashMapDemo(type: JavaExec) {
     classpath = sourceSets.main.runtimeClasspath
     main = 'HashMapDemo'
 }
 
+task runLinkedHashMapDemo(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    main = 'LinkedHashMapDemo'
+}
